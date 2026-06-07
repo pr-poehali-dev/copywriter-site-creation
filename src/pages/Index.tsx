@@ -167,11 +167,9 @@ export default function Index() {
             className={`font-light leading-[0.9] transition-all duration-1000 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
             style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(4rem, 12vw, 9rem)" }}
           >
-            Тексты,
+            Продолжение
             <br />
-            <em className="italic text-[#FF3D6B]">которые</em>
-            <br />
-            продают
+            <em className="italic text-[#FF3D6B]">следует...</em>
           </h1>
 
           <p className={`mt-10 max-w-lg text-white/50 text-lg leading-relaxed transition-all duration-1000 delay-400 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
