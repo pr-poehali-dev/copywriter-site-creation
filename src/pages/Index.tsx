@@ -3,6 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/7edba955-6e20-47eb-a2e9-aa05a061efd9.jpg";
 const NEON_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/c8068172-313b-4a77-af55-7bbf86dcdac1.jpg";
+const PROFILE_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/e3b3074f-0785-472f-9d28-b3e6539d7376.jpg";
 
 const categories = ["Все", "SMM", "Email", "Лендинги", "Статьи", "Реклама"];
 
@@ -292,8 +293,21 @@ export default function Index() {
         <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-r from-[#0D0D0D] via-[#0D0D0D]/80 to-transparent" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+            {/* Photo */}
+            <div className="relative">
+              <div className="absolute -inset-2 border border-[#FF3D6B]/20" />
+              <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-[#FF3D6B]" />
+              <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-[#FF3D6B]" />
+              <img
+                src={PROFILE_IMAGE}
+                alt="Олег Горохов"
+                className="w-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                style={{ aspectRatio: "3/4" }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D]/60 to-transparent" />
+            </div>
+            <div className="lg:col-span-2">
               <span style={{ fontFamily: "'Oswald', sans-serif" }} className="text-[#FF3D6B] text-xs tracking-[0.4em] uppercase">Обо мне</span>
               <h2 style={{ fontFamily: "'Cormorant', serif" }} className="text-5xl lg:text-6xl font-light mt-2 mb-8">
                 Слова — это<br /><em className="italic text-[#FFD600]">мой инструмент</em>
