@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/7edba955-6e20-47eb-a2e9-aa05a061efd9.jpg";
 const NEON_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/c8068172-313b-4a77-af55-7bbf86dcdac1.jpg";
-const PROFILE_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/bucket/b05d8d5f-fb2e-4644-9616-d44cf793a4c5.jpg";
+const PROFILE_IMAGE = "https://cdn.poehali.dev/projects/7a3a0d6d-0ebb-467e-b4e9-d48ac502b6e8/files/202e3cb9-80f4-4813-a6c3-d54bbd1dbba8.jpg";
 
 const categories = ["Все", "SMM", "Email", "Лендинги", "Статьи", "Реклама"];
 
