@@ -111,7 +111,7 @@ export default function Index() {
       >
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
           <span style={{ fontFamily: "'Cormorant', serif" }} className="text-2xl font-light tracking-[0.2em] uppercase">
-            <span className="text-[#FF3D6B]">A</span>nna Ivanova
+            <span className="text-[#FF3D6B]">О</span>лег Горохов
           </span>
           <a
             href="#contact"
@@ -299,7 +299,7 @@ export default function Index() {
                 Слова — это<br /><em className="italic text-[#FFD600]">мой инструмент</em>
               </h2>
               <p className="text-white/50 text-base leading-relaxed mb-6">
-                Меня зовут Анна Иванова. Я копирайтер с опытом в B2B и B2C-сегментах. Работала с брендами из e-commerce, EdTech, финтеха и fashion.
+                Меня зовут Олег Горохов. Я копирайтер с опытом в B2B и B2C-сегментах. Работал с брендами из e-commerce, EdTech, финтеха и fashion.
               </p>
               <p className="text-white/40 text-base leading-relaxed">
                 Верю в то, что хороший текст — это не украшение, а инструмент. Каждое слово должно работать на результат.
@@ -307,8 +307,7 @@ export default function Index() {
 
               <div className="mt-10 flex gap-6">
                 {[
-                  { icon: "Mail", label: "anna@example.com" },
-                  { icon: "Send", label: "@anna_copy" },
+                  { icon: "Mail", label: "og.goroh@gmail.com" },
                 ].map((c) => (
                   <a
                     key={c.label}
@@ -368,20 +367,12 @@ export default function Index() {
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
-            href="mailto:anna@example.com"
+            href="mailto:og.goroh@gmail.com"
             style={{ fontFamily: "'Oswald', sans-serif" }}
             className="flex items-center gap-3 bg-[#FF3D6B] text-white text-sm tracking-[0.2em] uppercase px-10 py-4 hover:bg-[#e02d5b] transition-all duration-300"
           >
             <Icon name="Mail" size={16} />
             Написать письмо
-          </a>
-          <a
-            href="https://t.me/"
-            style={{ fontFamily: "'Oswald', sans-serif" }}
-            className="flex items-center gap-3 border border-white/20 text-white/70 text-sm tracking-[0.2em] uppercase px-10 py-4 hover:border-white/50 hover:text-white transition-all duration-300"
-          >
-            <Icon name="Send" size={16} />
-            Telegram
           </a>
         </div>
       </section>
@@ -390,7 +381,7 @@ export default function Index() {
       <footer className="relative z-10 border-t border-white/5 py-8 max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <span style={{ fontFamily: "'Cormorant', serif" }} className="text-xl font-light tracking-[0.2em] uppercase text-white/30">
-            <span className="text-[#FF3D6B]">A</span>nna Ivanova
+            <span className="text-[#FF3D6B]">О</span>лег Горохов
           </span>
           <span className="text-white/20 text-xs">© 2024 — Копирайтер</span>
         </div>
