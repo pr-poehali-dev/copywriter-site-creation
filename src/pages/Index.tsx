@@ -307,11 +307,12 @@ export default function Index() {
 
               <div className="mt-10 flex gap-6">
                 {[
-                  { icon: "Mail", label: "og.goroh@gmail.com" },
+                  { icon: "Mail", label: "og.goroh@gmail.com", href: "mailto:og.goroh@gmail.com" },
+                  { icon: "Phone", label: "+7 951 567-56-95", href: "tel:+79515675695" },
                 ].map((c) => (
                   <a
                     key={c.label}
-                    href="#contact"
+                    href={c.href}
                     className="flex items-center gap-2 text-sm text-white/40 hover:text-[#FF3D6B] transition-colors"
                   >
                     <Icon name={c.icon} size={14} />
