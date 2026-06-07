@@ -321,7 +321,7 @@ export default function Index() {
             <div className="lg:col-span-2">
               <span style={{ fontFamily: "'Oswald', sans-serif" }} className="text-[#FF3D6B] text-xs tracking-[0.4em] uppercase">Обо мне</span>
               <h2 style={{ fontFamily: "'Cormorant', serif" }} className="text-5xl lg:text-6xl font-light mt-2 mb-8">
-                Слова — это<br /><em className="italic text-[#FFD600]">мой инструмент</em>
+                Тексты созданные<br /><em className="italic text-[#FFD600]">для продажи товаров</em>
               </h2>
               <p className="text-white/50 text-base leading-relaxed mb-6">
                 Меня зовут Олег Горохов. Я копирайтер с опытом в B2B и B2C-сегментах. Работал с брендами из e-commerce, EdTech, финтеха и fashion.
