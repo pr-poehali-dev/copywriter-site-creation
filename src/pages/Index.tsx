@@ -138,11 +138,22 @@ export default function Index() {
         <div className="absolute left-0 top-0 h-full w-px bg-gradient-to-b from-transparent via-[#FF3D6B]/40 to-transparent" />
         <div className="absolute right-[20%] top-0 h-full w-px bg-gradient-to-b from-transparent via-white/5 to-transparent hidden lg:block" />
 
+        {/* Profile photo in hero */}
         <div
-          className={`absolute top-32 right-8 lg:right-[8%] z-10 transition-all duration-1000 delay-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`absolute bottom-0 right-8 lg:right-[8%] z-10 transition-all duration-1000 delay-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}
+          style={{ width: "clamp(180px, 22vw, 320px)" }}
         >
-          <div className="border border-[#FFD600]/30 px-4 py-2 backdrop-blur-sm bg-[#FFD600]/5">
-            <span style={{ fontFamily: "'Oswald', sans-serif" }} className="text-[#FFD600] text-xs tracking-[0.3em] uppercase">Копирайтер</span>
+          <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-[#FF3D6B]" />
+          <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-[#FF3D6B]" />
+          <img
+            src={PROFILE_IMAGE}
+            alt="Олег Горохов"
+            className="w-full object-cover object-top"
+            style={{ aspectRatio: "3/4", maxHeight: "70vh" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-transparent" />
+          <div className="absolute bottom-4 left-0 right-0 text-center">
+            <span style={{ fontFamily: "'Oswald', sans-serif" }} className="text-[#FFD600] text-xs tracking-[0.3em] uppercase border border-[#FFD600]/30 px-3 py-1 bg-[#0D0D0D]/60 backdrop-blur-sm">Копирайтер</span>
           </div>
         </div>
 
