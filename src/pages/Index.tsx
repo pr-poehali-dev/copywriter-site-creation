@@ -374,6 +374,16 @@ export default function Index() {
             <Icon name="Mail" size={16} />
             Написать письмо
           </a>
+          <a
+            href="https://max.ru/og.goroh"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontFamily: "'Oswald', sans-serif" }}
+            className="flex items-center gap-3 border border-white/20 text-white/70 text-sm tracking-[0.2em] uppercase px-10 py-4 hover:border-white/50 hover:text-white transition-all duration-300"
+          >
+            <Icon name="MessageCircle" size={16} />
+            Написать в Макс
+          </a>
         </div>
       </section>
 
